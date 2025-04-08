@@ -1,0 +1,26 @@
+#complete {
+    color:green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.units {
+    color:brown;
+}
+
+textarea {
+    color: gold;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    color: white;
+}
+
+body {
+    background-image: url('./IMG-20200806-WA0003.jpg'); /* location of image */
+    background-repeat: no-repeat; /*prevents image repeat*/
+    background-size: cover; /*scale the image to cover the entire body*/
+    background-position: right; /* places the image with the right position in focus*/
+}

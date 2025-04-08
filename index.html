@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Intro to CSS
+        </title>
+        <meta name="author", content="Samuel Auma Wesa">
+        <meta name="viewport", content="width=device-width initial-scale = 1.0">
+        <meta charset="UTF-8">
+        <!--external css-->
+        <link rel="stylesheet" href="./styles.css">
+        <!--internal css-->
+        <style>
+            p {
+                color:black;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 25px;
+                text-align: center;
+            }
+            div {
+                padding: 15px 12px;
+                margin: 20px;
+                border: 3px solid black;
+            }
+            img {
+                border: 5px solid black;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <!--inline css-->
+            <h1 style="color: green"; font-size="30px";><u>Cascading Stylesheets</u></h1>
+            <h2 style="color: purple"; font-size="20px";><i>Intro to CSS and Styling</i></h2>
+        </header>
+        <main>
+            <p style="font-weight: 700;">
+                Hello there and Good Afternoon, <br> You are the lucky person to have stumbled upon this page which focuses on me and my life story.
+            </p>
+            <p>
+                So tell me, what do you want to know? <br>
+                Where can we start?
+            </p>
+            <p>
+                How about we just start simple? What's my name? I am <b>Samuel Auma Wesa.</b>
+            </p>
+            <p>
+                I am 20 years of age and bustling around with youthful energy with the zeal of trying to find out what i can do in this life before i can go into the next. I won't go into much about my background but start with my present life state and progressions.
+            </p>
+            <p>
+                Okay then i just joined the <b>Technical University of Mombasa</b> to take on the <b>Bachelor of Science in Electrical and Electronics Engineering Programme.</b>
+            </p>
+            <p>Should i create a table here? I hope i will. Oops!, you weren't supposed to hear this</p>
+            <table border="1" class="units">
+                <tr>
+                    <th>Unit Registered </th>
+                    <th>Unit Code</th>
+                </tr>
+                <tr>
+                    <td>DRAWING II</td>
+                    <td>EMC 4112</td>
+                </tr>
+                <tr>
+                    <td>CHEMISTRY II</td>
+                    <td>APS 4102</td>
+                </tr>
+                <tr>
+                    <td>CALCULUS II</td>
+                    <td>AMA 4104</td>
+                </tr>
+                <tr>
+                    <td>DEVELOPMENT STUDIES AND ETHICS</td>
+                    <td>AKS 2831</td>
+                </tr>
+                <tr>
+                    <td>COMPUTER PROGRAMMING</td>
+                    <td>ATG 6472</td>
+                </tr>
+                <tr>
+                    <td>APPLIED MECHANICS</td>
+                    <td>EYT 1732</td>
+                </tr>
+            </table>
+            <p>Here is a sample image:</p>
+            <div>
+            <img src="https://tum.ac.ke/storage/website/media/news/TUM_TN2503029.jpg" alt="A student receiving a certificate" height="300" width="450">
+            </div>
+            <div>
+            <img src="https://tum.ac.ke/storage/website/media/news/TUM_TN2503029.jpg" alt="A student receiving a certificate" height="300" width="450">
+
+            </div>
+            <form action="feedback.html" method="post">
+                <label for="first_name">First Name:</label>
+                <input type="text" placeholder="Joe " id="first_name" name="first_name" required><br /><br />
+                <label for="last_name">Last Name:</label>
+                <input type="text" placeholder="Wekesa" id="last_name" name="last_name" required> <br> <br>
+                <label for="more_info">Tell me a little more about yourself:</label> <br>
+                <textarea id="more_info" name="more_info" rows="5" cols="50" maxlength="200" required></textarea><br><br>
+                <input type="submit" value="Submit">
+        </main>
+        <footer id="complete">
+            Copyright&copy; Samuel Auma Wesa 2025
+        </footer>
+    </body>
+
+</html>
